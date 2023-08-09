@@ -1,0 +1,100 @@
+.jornada-negocios{
+  padding: 0 0 40px 0;
+  /* margin-top: -92px; */
+}
+.jornada-negocios .jornada-negocios-title{
+  /* background: #1c82ad; */
+  /* background: linear-gradient(70deg, rgba(0,0,0,1) 0%, rgba(30,47,51,1) 100%); */
+  padding: 80px 0;
+}
+
+
+.jornada-negocios .contrast-img .content-item h3{
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+.jornada-negocios .contrast-img .content-item span{
+  margin-bottom: 30px;
+}
+.jornada-negocios .contrast-img .content-title {
+  text-align: center;
+}
+.jornada-negocios .boxes {
+  z-index: 1;
+  position: relative;
+  top: -59px;
+}
+
+.jornada-negocios .jornada-negocios-title .content-title h2.title {
+  color: #000;
+}
+.jornada-negocios img{
+  width: 60px;
+  margin: 8px 0 16px 0;
+}
+.item-box .content-item:hover{
+background: #1c82ad;
+transform: translateY(10px);
+}
+
+.item-box .content-item .white,
+.item-box .content-item:hover .black{
+  display: none;
+}
+.item-box .content-item:hover .white{
+  display: block;
+}
+.item-box .content-item:hover h3{
+  color: white;
+  font-size: 18px;
+}
+.jornada-negocios .contrast-img .content-item .change p {
+  padding: 8px;
+  color: white;
+}
+/* .content */
+.jornada-negocios .contrast-img .content-item {
+  /* align-content: center; */
+  /* transition: 0.7s; */
+  background: #f2f2f2;
+  padding: 8px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 30px #939393;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.7s ease-in-out;
+}
+.before-hover{
+  z-index: 2;
+  position: relative;
+  transition: 0.7s ease-in-out;
+}
+.change{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: calc(100%);
+  left: 0;
+  z-index: 5;
+  background: #03a9f4;
+}
+.content-item:hover .change{
+  top: 0;
+}
+@media (max-width: 425px){
+  .jornada-negocios .content-item{
+    margin-top: 8px;
+    height: 80px;
+  }
+}

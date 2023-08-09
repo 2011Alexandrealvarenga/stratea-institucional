@@ -1,0 +1,77 @@
+.carousel-clients{
+  padding: 60px 0;
+}
+.carousel-clients .slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.carousel-clients .card {
+  background: #fff;
+  border-radius: 8px;
+}
+.carousel-clients .card .image-box {
+  height: 135px;
+  /* border: 1px solid red; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.carousel-clients .card .image-box img {
+  /* width: 100%; */
+  /* height: 100%; */
+  border-radius: 8px 8px 0 0;
+}
+.carousel-clients .card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.carousel-clients .card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.carousel-clients .profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.carousel-clients .profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.carousel-clients .swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+.carousel-clients .swiper-navBtn::before,
+.carousel-clients .swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.carousel-clients .swiper-pagination-bullet {
+  background-color: #000;
+}
+.carousel-clients .swiper{
+  margin-top: 16px;
+}
+@media screen and (max-width: 768px) {
+  .carousel-clients .swiper-navBtn {
+    display: block;
+  }
+
+  .carousel-clients .card.swiper-slide {
+    height: 130px;
+  }
+  .carousel-clients .swiper-button-prev,
+  .carousel-clients .swiper-button-next 
+   {
+    display: flex;
+  }
+}
+

@@ -1,0 +1,103 @@
+
+.bg-item{
+  background: rgb(0,0,0);
+  background: linear-gradient(70deg, rgba(0,0,0,1) 0%, rgba(30,47,51,1) 100%);
+  padding: 32px 0;
+}
+.bg-item .content-title{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg-item .testimonials .layer img,
+.bg-item .testimonials .content img{
+  width: 60px;
+  margin-bottom: 16px;
+}
+.bg-item .testimonials .layer h3.title{
+  color: white;
+}
+.bg-item h2.title{
+  color: white;
+}
+.bg-item .content-title p{
+  color: white;
+}
+.bg-item .testimonials .layer h3.title,
+.bg-item .testimonials .content h3.title{
+  font-size: 16px;  
+}
+.bg-item .testimonials .box1 {
+  border-bottom: 1px solid #000;
+}
+.bg-item .testimonials .box2 {
+  border-left: 1px solid #000;
+}
+.bg-item .testimonials .box3 {
+  border-right: 1px solid #000;
+}
+.bg-item .testimonials .box4 {
+  border-top: 1px solid #000;
+}
+
+
+
+.bg-item .testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bg-item .cards{
+  margin: 0 8px 8px 0;
+  width: 45%;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  /* box-shadow: 0 10px 40px rgba(0, 0, 0, .5); */
+}
+.bg-item .testimonials .content{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+
+  transition: 0.5s ease-in-out;
+  z-index: 2;
+  position: relative;
+}
+.bg-item .layer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+
+  position: absolute;
+  top: calc(100% - 4px);
+  left: 0;
+  z-index: 5;
+  transition: 0.7s;
+  background: linear-gradient(#03a9f4);
+}
+.bg-item .cards:hover .layer{
+  top: 0;
+}
+
+@media (max-width: 425px){
+  .bg-item .testimonials{
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .bg-item .testimonials .layer h3.title, .bg-item .testimonials .content h3.title {
+    font-size: 16px!important;
+  }
+}
+

@@ -1,0 +1,134 @@
+.banner-landing {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-landing .contrast-img {
+  background-color: rgba(0,0,0,0.48);
+  height: 100%;
+}
+.banner-landing .container {
+  padding: 140px 16px 180px;
+}
+
+.banner-landing h1.title {
+  display: block;
+  text-align: left;
+  color: white;
+  font-size: 24px;
+}
+.banner-landing h5.title {
+  text-align: left;
+  font-size: 16px;
+  color: white;
+}
+
+.contact-forms {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  /* background: linear-gradient(70deg, rgba(0,0,0,1) 0%, rgba(30,47,51,1) 100%); */
+  padding: 60px 0;
+}
+/* left */
+.contact-forms .content-left, 
+.contact-forms .content-right 
+{
+  /* height: 550px; */
+  display: grid;
+  align-items: center;
+}
+.contact-forms .content-title{
+  margin-bottom: 24px;
+}
+/* right */
+.contact-forms .content-right form {
+  display: grid;
+}
+.contact-forms .content-right form span{
+  color: #000;
+}
+.contact-forms .content-right form textarea{
+  height: 90px;
+}
+.contact-forms .content-right form input, 
+.contact-forms .content-right form textarea{
+  border: 0px solid #d3d3d3;
+  border-bottom: 1px solid #000;
+  background: #f9f9f9;
+  width: 100%;
+}
+.contact-forms .content-right form input{
+  margin-bottom: 16px;
+}
+.contact-forms .content-right form input:focus,
+.contact-forms .content-right form input:after,
+.contact-forms .content-right form input:before,
+.contact-forms .content-right form textarea:focus,
+.contact-forms .content-right form textarea:after,
+.contact-forms .content-right form textarea:before
+
+{
+  /* color:#495057; */
+  background: #f9f9f9;
+  border-color:#fff;
+  outline:0;
+  box-shadow:0 0 0 0.2rem rgba(255,255,255,0.0);
+  border-bottom: 1px solid #000;
+}
+
+.contact-forms .content-right form .btn-content{
+  display: flex;
+  justify-content: end;
+}
+.contact-forms .content-right form .btn-content .btn {
+  background: red;
+  color: white;
+  width: 150px;
+}
+/* contato */
+footer {
+  background: var(--main-color-1);
+}
+footer .section {
+  padding: 24px 0;
+}
+.contact-forms h3.title{
+  color: #000;
+}
+.contact-forms .list{
+  margin-top: 8px;
+}
+.contact-forms .list ul {
+  list-style: none;
+  /* margin: 0; */
+  padding: 0;
+  margin-top: 24px;
+}
+.contact-forms .list ul li img{
+  width: 24px;
+  margin-right: 8px;
+}
+.contact-forms .list ul li a{
+  color: #000;
+  /* text-decoration: none!important; */
+  font-size: 14px;
+}
+
+
+
+/* footer .item-zap::hover{background:0 0}
+footer .item-zap:hover .icon-whatsapp{color:#cea83b}
+footer .item-zap .icon-whatsapp{font-size:30px;color:#fff} h2.title{
+  font-size: 30px;
+}
+h3.title{
+  font-size: 24px;
+} */
+/* contato */
+@media (max-width: 425px){  
+  .banner-landing .container {
+    padding: 100px 16px 180px;
+  }
+}
+

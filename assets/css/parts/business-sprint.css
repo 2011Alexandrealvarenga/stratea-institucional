@@ -1,0 +1,182 @@
+.marg-b-16{margin-bottom: 16px;}
+.marg-t-16{margin-top: 16px;}
+.b-sprint-mobile{
+  padding: 80px 0;
+  background: linear-gradient(70deg, rgba(0,0,0,1) 0%, rgba(30,47,51,1) 100%);
+}
+.b-sprint-mobile h1.title{
+  color: white;
+}
+
+.box-business {
+  background-image: linear-gradient(#1c82ad, #fff);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-sprint-mobile .content .content-right .item {
+    background: #dcdcdc;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+ .desc {
+    margin-left: 16px;
+}
+.b-sprint-mobile .content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.b-sprint-mobile .content .content-left{
+  width: 15%;  
+  padding: 8px;
+}
+
+.b-sprint-mobile .content-right {
+    width: 80%;
+    display: grid;
+}
+.b-sprint-mobile .content-right .item-5 {
+  height: 60px;
+}
+.b-sprint-mobile h2.title.titulo{  color: white; }
+.b-sprint-mobile h2.title{  font-size: 16px!important;}
+.b-sprint-mobile h3.title{  font-size: 20px;}
+.b-sprint-mobile h4.title{  font-size: 18px;}
+
+.b-sprint-desktop .content-title-b-sprint {
+  background: linear-gradient(70deg, rgba(0,0,0,1) 0%, rgba(30,47,51,1) 100%);
+  padding: 40px 0;
+  height: 450px;
+}
+.b-sprint-desktop h1.title{
+  color: white;
+}
+.b-sprint-desktop .content-title-b-sprint h2.title{
+  color: white;
+}
+.b-sprint-desktop .content{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* justify-content: center; */
+}
+.b-sprint-desktop .item {
+    width: 20%;
+    height: auto;
+    margin: 8px;
+    position: absolute;
+    padding: 0!important;
+    background: inherit!important;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+.b-sprint-desktop .item1 {
+  top: 250px;
+  left: 4px;
+}
+.b-sprint-desktop .item2 {
+  top: 116px;
+  left: 94px;
+}
+.b-sprint-desktop .item3 {
+  left: 276px;
+  top: 60px;
+}
+.b-sprint-desktop .item4 {
+  top: 116px;
+    right: 231px;
+}
+.b-sprint-desktop .item5 {
+  top: 258px;
+  right: 151px;
+}
+/* .b-sprint-desktop .item6{
+  position: absolute;
+    top: 266px;
+    left: 256px;
+    width: 218px;
+    height: 116px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('http://stratea.local/wp-content/uploads/2023/03/curva.png');
+} */
+.b-sprint-desktop .item6 h4.title {
+    color: white;
+    font-weight: bold;
+}
+.b-sprint-desktop .item h4.title{
+  line-height: 0.9;
+  color: white;
+  font-size: 18px;
+}
+/* .b-sprint-desktop .item .num {
+  color: white;
+  font-size: 32px;
+} */
+
+.b-sprint-desktop .desc {
+    /* margin-left: 16px; */
+    line-height: 1.0;
+    margin-top: 8px;
+}
+/* .b-sprint-desktop hr.lineblue {
+  margin: 0;
+  z-index: 1;
+  border: 2px solid #fff;
+  width: 185px;
+  position: absolute;
+} */
+/* .line1 {
+    rotate: 27deg;
+    top: 255px;
+    left: 30px;
+}
+.line2 {
+    rotate: 51deg;
+    top: 116px;
+    left: 293px;
+}
+.line3 {
+    rotate: 122deg;
+    top: 116px;
+    left: 585px;
+}
+.line4 {
+    rotate: 153deg;
+    top: 252px;
+    right: 106px;
+}
+.line5 {
+  rotate: 0;
+  bottom: 0;
+  left: 0;
+}
+.line6 {
+  rotate: 0;
+  bottom: 0;
+  right: 0;
+} */
+hr.line-full.margin-bussiness {
+    margin-top: 80px;
+}
+
+@media (max-width: 425px){
+  hr.line-full.margin-bussiness {
+          margin-top: 0px;
+      }
+      .b-sprint-mobile h2.title.titulo{  color: white; font-size: 24px!important;}
+  
+}

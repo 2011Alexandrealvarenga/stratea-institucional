@@ -1,0 +1,48 @@
+.services-head .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.services-head .pr-0{
+    padding-right: 0;
+}
+.services-head .content-left{
+    width: 440px;
+    float: right;
+}
+.services-head .content-left .content-title{
+    float: right;
+}
+.services-head .content-left h2.title{
+    text-align: right;
+}
+.services-head .content-left .line{
+    float: right;
+}
+.services-head .content-left .content{
+    float: right;
+    margin-top: 16px;
+}
+.services-head .content-left .content a {
+    color: #000!important;
+}
+.services-head .content-left .content a .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    background: var(--main-color-cinza-escuro);
+    padding: 0px 0px 0px 12px;
+    margin-top: 8px;
+}
+.services-head .content-left .content a .item img {
+    width: 32px;
+}
+.services-head .content-left .content a .item h4.subtitle {
+    font-size: 16px;
+}
+/* right */
+.services-head .content-right img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}

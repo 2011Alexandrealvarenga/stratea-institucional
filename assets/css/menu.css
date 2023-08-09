@@ -1,0 +1,48 @@
+/* @import url('colors.css'); */
+
+.main-menu{
+    background: transparent;
+    margin-top: 24px;
+}
+.main-menu .navbar{
+    padding: 0!important;
+}
+.main-menu .navbar .navbar-brand{
+    color: white;
+    padding-left: 16px;
+}
+.main-menu .navbar .navbar-brand .logo {
+    width: 30px;
+}
+/* .main-menu nav .collapse .navbar-nav .menu-item {
+    padding: 8px 16px;
+} */
+.navbar-nav li {
+    padding: 8px 16px;
+}
+.main-menu nav #navbarNavDropdown ul li a span{
+    color: white;    
+    font-size: 18px;
+}
+.main-menu nav .navbar-toggler{
+
+    border:1px solid white!important;
+}
+
+.main-menu nav .custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255)!important;
+} 
+
+.main-menu nav .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* nav.navbar.navbar-expand-lg {
+    background: linear-gradient(70deg, rgba(0,0,0,1) 0%, rgba(30,47,51,1) 100%);
+} */
+.background-scroll{
+    background: rgba(0,0,0,0.3)!important;
+    transition: 0.5s;
+}
+@media screen (max-width: 428px) {
+
+}

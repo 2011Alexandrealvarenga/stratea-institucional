@@ -1,0 +1,72 @@
+@import url('banner-pages.css');
+
+.banner-landing {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-landing .contrast-img {
+  background-color: rgba(0,0,0,0.48);
+  height: 100%;
+}
+.banner-landing .container {
+  padding: 140px 16px 180px;
+}
+
+.banner-landing h1.title {
+  display: block;
+  text-align: left;
+  color: white;
+  font-size: 24px;
+}
+.banner-landing h5.title {
+  text-align: left;
+  font-size: 16px;
+  color: white;
+}
+
+
+.projects-desc {
+    margin-bottom: 40px;
+}
+.projects-desc .question img{
+transition:transform 0.4s;
+padding-left:8px;
+}
+
+.projects-desc .question{
+  height: 60px;
+background-color:white;
+box-shadow:0px 10px 30px rgba(54,54,54,0.149);
+color:#000;
+cursor:pointer;
+font-size:1em;
+font-weight:500;
+letter-spacing:0px;
+line-height:21px;
+padding: 8px;
+text-align:left;
+transition:0.5s;
+display:flex;
+justify-content:space-between;
+align-items: center;
+}
+.projects-desc .question:not(:last-child){margin-bottom:16px;}
+.projects-desc .question img{transition:transform 0.4s;}
+
+.projects-desc .plus {
+  width: 32px;
+}
+.projects-desc .content-text {
+  padding: 8px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+@media (max-width: 425px){
+
+  
+  .banner-landing .container {
+    padding: 100px 16px 180px;
+  }
+}
